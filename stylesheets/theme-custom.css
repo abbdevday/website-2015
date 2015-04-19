@@ -1,0 +1,26 @@
+.navbar-inner {
+    min-height: 0px;
+}
+
+#masthead .brand {
+    padding: 20px 20px 18px;
+}
+
+#masthead .brand img {
+    height: 47px;
+    width: 210px;
+}
+
+@media (max-width: 480px) {
+    #masthead .brand img {
+        height: 40px;
+        width: 180px;
+    }
+}
+
+@media (max-width: 320px) {
+    #masthead .brand img {
+        height: 36px;
+        width: 160px;
+    }
+}
