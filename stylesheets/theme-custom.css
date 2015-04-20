@@ -11,10 +11,37 @@
     width: 210px;
 }
 
+.super-hero-unit figure figcaption {
+    top: 43%;
+}
+
+.super span {
+    display: block;
+    font-size: 36px;
+}
+
+@media (max-width: 767px) {
+    .super-hero-unit figure figcaption {
+        margin-top: -30px;
+    }
+
+    .super span {
+        font-size: 24px;
+    }
+}
+
 @media (max-width: 480px) {
     #masthead .brand img {
         height: 40px;
         width: 180px;
+    }
+
+    .super-hero-unit figure figcaption {
+        margin-top: -23px;
+    }
+
+    .super span {
+        font-size: 18px;
     }
 }
 
@@ -22,5 +49,13 @@
     #masthead .brand img {
         height: 36px;
         width: 160px;
+    }
+
+    .super-hero-unit figure figcaption {
+        margin-top: -13px;
+    }
+
+    .super span {
+        font-size: 12px;
     }
 }
