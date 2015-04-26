@@ -20,6 +20,10 @@
     font-size: 36px;
 }
 
+.primary-button-container li {
+    cursor: pointer;
+}
+
 @media (max-width: 767px) {
     .super-hero-unit figure figcaption {
         margin-top: -30px;

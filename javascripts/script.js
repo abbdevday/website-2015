@@ -21,8 +21,8 @@
         // creeate twitter feeds
         createTwitter();
 
-        // Fancybox init
-        fancyboxInit();
+        // Fancybox init - DISABLED
+        // fancyboxInit();
 
     });
 
