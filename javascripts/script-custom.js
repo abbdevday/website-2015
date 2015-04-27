@@ -1,7 +1,11 @@
 (function($) {
     $(document).ready(function () {
         $(".primary-button-container li").click(function (e) {
-            console.log(e);
+            var href = $(this).data("href");
+
+            if (href) {
+                window.location.href = href;
+            }
         });
 
         $(".btn-all-speakers").click(function (e) {
