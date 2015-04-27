@@ -44,8 +44,18 @@
     font-size: 28px;
 }
 
+.btn-all-speakers {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 .navbar .nav > li > a.register-link {
     color: #a24343;
+}
+
+.speaker-headshot.round-box.no-rounded .box-inner::after {
+    box-shadow: none;
 }
 
 @media (max-width: 767px) {
