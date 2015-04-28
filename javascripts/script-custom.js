@@ -7,9 +7,5 @@
                 window.location.href = href;
             }
         });
-
-        $(".btn-all-speakers").click(function (e) {
-            window.location.href = "speakers.html";
-        });
     });
 })(jQuery);
