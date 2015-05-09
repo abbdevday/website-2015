@@ -11,9 +11,9 @@
     width: 210px;
 }
 
-.super-hero-unit figure figcaption {
-    top: 43%;
-}
+/*.super-hero-unit figure figcaption {*/
+    /*top: 43%;*/
+/*}*/
 
 .super span {
     display: block;
@@ -34,6 +34,15 @@
 
 .registration-row {
     display: flex;
+}
+
+.btn-primary.btn-blue {
+    background-color: #0076BF;
+    background-image: linear-gradient(to bottom, #007CBF, #006FBF);
+}
+
+.btn-primary.btn-blue:hover {
+    background-color: #006FBF;
 }
 
 .btn-register {
