@@ -1,0 +1,23 @@
+@media (max-width: 767px) {
+    .row-fluid .primary-button-container [class*="span"] {
+        width: 50%;
+        float: left;
+    }
+
+    .row-fluid .headshots [class*="span"] {
+        width: 50%;
+        float: left;
+    }
+}
+
+@media (max-width: 480px) {
+    .row-fluid .primary-button-container [class*="span"] {
+        width: 100%;
+        float: none;
+    }
+
+    .row-fluid .headshots [class*="span"] {
+        width: 100%;
+        float: none;
+    }
+}
