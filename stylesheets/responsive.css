@@ -878,6 +878,7 @@
     width: 28px;
   }
 }
+
 @media (max-width: 767px) {
   body {
     padding-left: 20px;
