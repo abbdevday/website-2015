@@ -61,12 +61,6 @@
     font-size: 28px;
 }
 
-.btn-all-speakers {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
 .navbar .nav > li > a.register-link {
     color: #a24343;
 }
