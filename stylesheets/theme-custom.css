@@ -79,7 +79,11 @@
     }
 
     .registration-row {
-        display: inherit;
+        display: block;
+    }
+
+    .registration-row > .span6 {
+        display: block;
     }
 
     .btn-register {
