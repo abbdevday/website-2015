@@ -92,6 +92,10 @@ section#partners .logos > li {
     text-align: center;
 }
 
+section#partners .logos > li img {
+    max-width: 70%;
+}
+
 @media (max-width: 1138px) {
     section#workshops ul.row-fluid > li > .well {
         min-height: 160px;
