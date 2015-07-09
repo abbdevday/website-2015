@@ -110,6 +110,10 @@ table.agenda-grid > tbody > tr > td + td {
     text-align: left;
 }
 
+ul.lead li {
+    line-height: inherit;
+}
+
 @media (max-width: 1138px) {
     section#workshops ul.row-fluid > li > .well {
         min-height: 160px;
